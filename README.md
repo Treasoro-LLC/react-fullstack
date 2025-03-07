@@ -2,14 +2,14 @@
 
 This repo is the standard full-stack template for developing React/NodeJS full-stack applications
 
-[PNPM Workspaces](https://pnpm.io/workspaces) - Used to manage the monorepo
+- [PNPM Workspaces](https://pnpm.io/workspaces) - Used to manage the monorepo
 
 ## Frontend
 
-[Vite](https://vite.dev/) - Frontend build tool
-[TailwindCSS](https://tailwindcss.com/) - CSS Framework
-[DaisyUI](https://daisyui.com/) - UI Tailwind [Components](https://daisyui.com/components/)
-[Jest](https://jestjs.io/) - Javascript Testing Framework
+- [Vite](https://vite.dev/) - Frontend build tool
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+- [DaisyUI](https://daisyui.com/) - UI Tailwind [Components](https://daisyui.com/components/)
+- [Jest](https://jestjs.io/) - Javascript Testing Framework
 
 ## API
 
