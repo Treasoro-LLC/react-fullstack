@@ -13,7 +13,7 @@ This repo is the standard full-stack template for developing React/NodeJS full-s
 
 ## API
 
-[ExpressJS](https://expressjs.com/) - Web Framework for NodeJS
+- [ExpressJS](https://expressjs.com/) - Web Framework for NodeJS
 
 ## Notes
 
