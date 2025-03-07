@@ -11,7 +11,8 @@
     "test:all": "pnpm -r test",
     "lint:api": "eslint api/",
     "lint:frontend": "eslint frontend/",
-    "lint": "npx eslint"
+    "lint": "npx eslint",
+    "docker:env": "docker compose --file docker/docker-compose.yaml up --build"
   },
   "keywords": [],
   "author": "",
