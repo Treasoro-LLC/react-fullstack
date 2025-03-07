@@ -8,13 +8,24 @@
     "dev:frontend": "pnpm --filter frontend dev",
     "dev:api": "pnpm --filter api dev",
     "dev": "pnpm run '/^dev:.*/'",
-    "test:all": "pnpm -r test"
+    "test:all": "pnpm -r test",
+    "lint:api": "eslint api/",
+    "lint:frontend": "eslint frontend/",
+    "lint": "npx eslint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.6.1",
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1"
   }
 }
