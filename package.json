@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:frontend": "pnpm --filter frontend dev",
     "dev:api": "pnpm --filter api dev",
-    "dev": "pnpm -r dev"
+    "dev": "pnpm -r dev",
+    "test:all": "pnpm -r test"
   },
   "keywords": [],
   "author": "",
